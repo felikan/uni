@@ -1,0 +1,30 @@
+span {
+	color:red; 
+	background-color: green;
+}
+body {background:url(bild.jpg);
+background-repeat:no-repeat;
+}
+#green {
+	height:300px;
+}
+#yellow{
+	height:300px;
+	width:500px;
+}
+#blue{
+	height:50%;
+	width:50%;
+	margin:7%;
+}
+#purple{
+	height:25em;
+	width:20em;
+	padding:30px 115px;
+}
+#website{
+    witdh:200em;
+}
+#externe{
+    height="300px";
+}

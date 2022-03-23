@@ -1,0 +1,21 @@
+span {
+	color:green;
+	font-size:110%;
+	font-style:italic;
+	text-align: center;
+	}
+#span1 {
+	background-color:purple;
+	font-size:small;
+}
+.header {
+	font-size:250%;
+}
+
+table {
+	border:1px solid black;
+	font-size:160%;
+	font-style:italic;
+	letter-spacing: 0.5em; 
+	font-weight: bold;
+}

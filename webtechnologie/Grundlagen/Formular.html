@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<Head>
+	<title>Meine Website</title> <!--Website Name-->
+</head>
+<body>
+<form action="register.php" method="get">
+	<ul>
+		<li span>Vorname:
+			<input type=" Text" name="vorname">
+		</li>
+		<li span>Nachname:
+			<input type=" Text" name="Nachname">
+		</li>
+<li>Geschlecht:
+	<li>
+			<input type="radio" name="geschlecht" value="w" id="geschlecht_w">
+			<label for="geschlecht_w">weiblich</label>
+	</li>
+
+	<li>
+		<input type="radio" name="geschlecht" value="m" id="geschlecht_m">
+		<label for="geschlecht_m">männlich</label>
+	</li>
+
+	<li>
+		<input type="radio" name="geschlecht" value="d" id="geschlecht_d">
+		<label for="geschlecht_d">divers</label>
+	</li>
+
+		<li span>Email:<input type=" Text" name="Email">
+		</li>
+		
+	<li>Studium
+		<select name="studium">
+			<option value="info">Info</option>
+			<option value="contr">Controlling</option>
+		</select>
+	</li>
+
+<li>
+<input type="password" name="Passwort" required>
+<label for="password" >Passwort:</label>
+</li>
+</ul>
+<button>Absenden</button>
+</form>
+</body>
+</html>
